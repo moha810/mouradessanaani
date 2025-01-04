@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mourad Essanaani</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header */
+    header {
+      background-color: #0d0d0d;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #00ffcc;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+      color: #cccccc;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0d0d0d;
+      padding: 1rem;
+      border-bottom: 2px solid #00ffcc;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav ul li a {
+      font-size: 1rem;
+      color: #1a1a1a;
+      background-color: #00ffcc;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-shadow: 0 0 5px #00ffcc;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 5px rgba(0, 255, 204, 0.5);
+    }
+
+    nav ul li a:hover {
+      background-color: #00cc99;
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 255, 204, 0.8);
+    }
+
+    /* Sections */
+    section {
+      padding: 2rem;
+      margin: 1rem auto;
+      max-width: 800px;
+      background-color: #262626;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+    }
+
+    section h2 {
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc;
+      margin-bottom: 1rem;
+    }
+
+    section p, section ul {
+      color: #cccccc;
+    }
+
+    section ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    /* Experience Section */
+    .experience-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .experience-item h3 {
+      color: #00ffcc;
+      margin-bottom: 0.5rem;
+    }
+
+    .experience-item p {
+      margin: 0;
+    }
+
+    /* Contact Section */
+    #contact .contact-info {
+      margin-bottom: 1.5rem;
+    }
+
+    #contact .contact-info p {
+      margin: 0.5rem 0;
+    }
+
+    #contact .contact-info a {
+      color: #00ffcc;
+      text-shadow: 0 0 5px #00ffcc;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    form input, form textarea, form button {
+      padding: 0.75rem;
+      border: 1px solid #00ffcc;
+      border-radius: 5px;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      font-size: 1rem;
+    }
+
+    form input::placeholder, form textarea::placeholder {
+      color: #cccccc;
+    }
+
+    form button {
+      background-color: #00ffcc;
+      color: #1a1a1a;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #00cc99;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #0d0d0d;
+      padding: 1rem;
+      text-align: center;
+      border-top: 2px solid #00ffcc;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      margin: 0;
+      color: #cccccc;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#about">À Propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Mourad Essanaani</h1>
+  </header>
+
+  <section id="about">
+    <h2>À Propos</h2>
+    <p>
+      Professionnel motivé avec plus de 23 ans d'expérience dans le domaine dynamique de la construction immobilière. 
+      Expert en gestion de chantiers, doté d'un excellent sens de l'organisation et orienté vers la satisfaction client 
+      et l'atteinte des objectifs commerciaux. Capable de piloter des équipes, de coordonner avec des sous-traitants 
+      et de proposer des solutions efficaces pour optimiser les projets.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li>Leadership et coordination d'équipe</li>
+      <li>Gestion de projets et respect des délais</li>
+      <li>Négociation avec les fournisseurs</li>
+      <li>Sens aigu du détail et de l'organisation</li>
+      <li>Motivation et implication au travail</li>
+      <li>Supervision de chantiers et respect des normes de sécurité</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Expérience Professionnelle</h2>
+    <div class="experience-item">
+      <h3>Conducteur de travaux à KRAD</h3>
+      <p><strong>Mai 2001 - Septembre 2024</strong></p>
+      <p>
+        Supervision quotidienne des équipes pour garantir le bon déroulement des chantiers. Gestion des projets de 
+        démolition et de construction, de la conception à la finalisation. Contrôle rigoureux de l'avancement des 
+        travaux pour garantir la conformité avec les plans et les spécifications. Coordination des équipes de 
+        sous-traitants pour des projets de rénovation et de construction, assurant une qualité optimale pour les 
+        clients privés et institutionnels.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>Téléphone: <a href="tel:+212667401214">06 67 40 12 14</a></p>
+      <p>Email: <a href="mailto:mouradessanaani@gmail.com">mouradessanaani@gmail.com</a></p>
+      <p>Adresse: Oulfa, Casablanca, Maroc</p>
+    </div>
+    <form id="contact-form">
+      <input type="text" placeholder="Votre Nom" required>
+      <input type="email" placeholder="Votre Email" required>
+      <textarea placeholder="Votre Message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mourad Essanaani. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Form submission handling
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Merci pour votre message!');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
